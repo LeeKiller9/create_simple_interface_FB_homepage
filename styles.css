@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    background-color: #EAEBEF;
+}
+
+header {
+    background-color: #3B5997;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#headerIcon {
+    float: left;
+}
+
+#headerIcon img {
+    width: 150px;
+    height: 50px;
+}
+
+#headerNav {
+    float: right;
+}
+
+#headerNav nav {
+    line-height: 50px;
+    margin-right: 400px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#leftSlide {
+    width: 150px;
+    height: 75vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+}
+
+.imgSlide {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.titleSlide {
+    font-family: Arial, serif;
+    color: gray;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+#leftSlide span, #rightSlide span {
+    padding-top: 2px;
+}
+
+#rightSlide {
+    width: 150px;
+    height: 75vh;
+    position: fixed;
+    top: 60px;
+    left: 1100px;
+
+}
+
+#post {
+    width: 800px;
+    height: 175px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    padding: 10px;
+}
+
+#postHeader {
+    display: flex;
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+}
+
+#postHeader img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#postHeader a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+    font-family: Arial, serif;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#postHeader span {
+    padding-top: 2px;
+}
+
+#postHeader a:last-of-type {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid black 1px;
+}
+
+#postContent {
+    display: flex;
+    margin-top: 10px;
+    border-bottom: solid black 1px;
+}
+
+#postContent textarea {
+    margin-top: 15px;
+    font-size: 18px;
+    color: gray;
+    border: none;
+}
+
+#postContent img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#postFooter {
+    float: right;
+    margin-top: 10px;
+}
+
+#postFooter select, #postFooter button{
+    font-size: 17px;
+}
+
+#postFooter select {
+    height: 25px;
+    width: 90px;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+#postFooter button{
+    height: 25px;
+    width: 70px;
+    background-color: #4167B1;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+#friendList {
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+#friendList img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#list a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#list span {
+    padding-top: 6px;
+}
+.friendName {
+    width: 130px;
+}
+
+#main {
+    width: 800px;
+    height: 900px;
+    background-color: white;
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    padding: 10px;
+}
+
+#main p {
+    font-size: 18px;
+}
